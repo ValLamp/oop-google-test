@@ -9,7 +9,7 @@
 ## Requirements
 - WSL 2 with Ubuntu 20 or higher installed
 - Required packages for OOP installed, if unsure run:\
-```sudo apt-get update && sudo apt-get install -y gcc g++ make cmake clang-11 libasan6 valgrind gdb git lldb build-essential```
+```sudo apt-get update && sudo apt-get install -y gcc g++ make cmake clang-11 clang libasan6 valgrind gdb git lldb build-essential```
 - CLion installed (v2023.1 or newer)
 
 ## Usage
