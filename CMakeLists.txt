@@ -21,8 +21,8 @@ add_library(oop-src main/src/Dummy.cpp main/include/Dummy.hpp)
 add_executable(oop-main main/main.cpp)
 add_executable(unit-test test/dummyTest.cpp)
 
-target_compile_options(oop-main PRIVATE -Wall -Wextra -pedantic -std=c++17 -g -gdwarf-4)
-target_compile_options(oop-src PRIVATE -Wall -Wextra -pedantic -std=c++17 -g -gdwarf-4)
+target_compile_options(oop-main PRIVATE -Wall -Wextra -pedantic -std=c++17 -g -gdwarf-4 -D_GLIBCXX_DEBUG)
+target_compile_options(oop-src PRIVATE -Wall -Wextra -pedantic -std=c++17 -g -gdwarf-4 -D_GLIBCXX_DEBUG)
 
 target_link_libraries(oop-main oop-src)
 target_link_libraries(unit-test oop-src GTest::gtest_main)
