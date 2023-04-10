@@ -26,6 +26,8 @@ Before committing and pushing own changes, run the ```prepare-commit``` run conf
 
 If necessary, adjust the name of the outputted binary in the ```CMakeLists.txt``` file.
 
+The testreport.html can be found in the main/testing directory.
+
 ## Available Run Configurations
 
 | Name              | Description                                                              |
@@ -38,6 +40,8 @@ If necessary, adjust the name of the outputted binary in the ```CMakeLists.txt``
 
 Please make sure that the default terminal is set to WSL in the CLion settings\
 (Settings -> Tools -> Terminal; Shell path: ```C:\Windows\System32\wsl.exe```)
+
+When running ```update-data``` or ```prepare-commit```, make sure that your terminal is at the root path of the project.
 
 ## Important notice
 This project was created by a student and is not officially supported by the lecturers. 
