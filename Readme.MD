@@ -16,8 +16,9 @@
 1) Clone this repo
 2) Clone the OOP-repository into the ```git-project``` directory
 3) Open the project in CLion and reload the CMake project
-4) Run the ```update-data``` run configuration to copy the testrunner-data 
-5) Start coding in the ```main``` directory
+4) Change the line endings for the whole project directory to LF (File > File Properties > Line Seperators > LF)
+5) Run the ```update-data``` run configuration to copy the testrunner-data 
+6) Start coding in the ```main``` directory
 
 When creating new files, make sure to add them to the ```oop-src```(don't add them to ```oop-main```) target in the ```CMakeLists.txt``` file.
  
